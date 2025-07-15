@@ -3060,13 +3060,11 @@
 		}
 
 		#header.alt {
-			-moz-animation: none;
-			-webkit-animation: none;
-			-ms-animation: none;
-			animation: none;
-			background: none;
-			color: rgba(255, 255, 255, 0.75);
-			position: absolute;
+		background-image: url("../images/banner.jpg");
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
 		}
 
 			#header.alt nav > ul > li a:not(.button).icon:before {
